@@ -2,6 +2,17 @@ body {
   /*padding: 50px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+h1 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+label {
+  color: white;
+}
 
 a {
   color: #00B7FF;
@@ -9,4 +20,8 @@ a {
 
 .center {
   text-align: center;;
+}
+
+.channel-logo {
+  width: 200px;
 }

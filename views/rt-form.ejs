@@ -6,29 +6,37 @@
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
 	<style>
-		body 		{ padding-top:80px; }
+		body 		{ padding-top:80px;
+              background: red; /
+              background: -webkit-linear-gradient(left top, red, black);
+              background: -o-linear-gradient(bottom right, red, black);
+              background: -moz-linear-gradient(bottom right, red, black);
+              background: linear-gradient(to bottom right, red, black); }
 	</style>
   </head>
   <body>
     <div class="container">
       <h1 class="center">
-        <img src="http://vignette1.wikia.nocookie.net/grifball/images/2/2a/RoosterTeeth_logo.png/revision/latest?cb=20131024025855">
+        <img class="channel-logo" src="http://vignette1.wikia.nocookie.net/grifball/images/2/2a/RoosterTeeth_logo.png/revision/latest?cb=20131024025855">
         <span class="rt-icon"></span>Rooster Teeth Quotes</h1>
       <div class="col-sm-6 col-sm-offset-3">
 
 
 
 
-      <form action"/rt-quotes" method="post">
-        <div class="form-group">
-          <label>Name</label>
-          <input type="text" class="form-control" name="name">
-        </div>
+      <form action"/api/rt-quotes" method="post">
 
         <div class="form-group">
           <label>Quote</label>
           <input type="text" class="form-control" name="quote">
         </div>
+
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" name="name">
+        </div>
+
+
 
         <div class="form-group">
           <label>Show</label>
@@ -42,7 +50,7 @@
 
         <div class="form-group">
           <label>Time Stamp</label>
-          <input type="time" class="form-control" name="timestamp">
+          <input type="text" class="form-control" name="timestamp">
         </div>
 
         <div class="form-group">
