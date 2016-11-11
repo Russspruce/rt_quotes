@@ -1,9 +1,11 @@
 {
   "name": "rt-quotes",
   "version": "1.0.0",
-  "private": true,
+  "main": "server.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "migrate": "./node_modules/.bin/pg-migrate up"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
