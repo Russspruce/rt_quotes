@@ -15,4 +15,5 @@ An app designed and built for the web production company Rooster Teeth.  Creatin
 
 *This software is licensed under the MIT license.  See below for more details on licensing.*
 
+
 Copyright (c) 2016 by **Andrew Russo**
