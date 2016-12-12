@@ -9,7 +9,14 @@ h1 {
 .jumbotron {
   padding-left: 50px;
   padding-right: 50px;
+  background: rgba(238, 238, 238, 0.5);
 }
+
+
+
+/*.dummy_font {
+  visibility: hidden;
+}*/
 
 ul {
   list-style: none;
@@ -67,7 +74,7 @@ a {
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 30s linear infinite 0s;
+    animation: imageAnimation 54s linear infinite 0s;
 }
 
 .cb-slideshow li div {
@@ -79,27 +86,47 @@ a {
     text-align: center;
     opacity: 0;
     color: #fff;
-    animation: titleAnimation 30s linear infinite 0s;
+    animation: titleAnimation 54s linear infinite 0s;
 }
 
 .cb-slideshow li:nth-child(1) span {
-    background-image: url("http://orig05.deviantart.net/a6b9/f/2015/109/2/8/neon_rooster_teeth_logo_by_coldemoon-d8q91d1.png")
+    background-image: url("/images/bg_1.png");
 }
 .cb-slideshow li:nth-child(2) span {
-    background-image: url("http://i.imgur.com/hgC1BCe.jpg");
+    background-image: url("/images/bg_2.jpg");
     animation-delay: 6s;
 }
 .cb-slideshow li:nth-child(3) span {
-    background-image: url("http://i.imgur.com/VkcukV2.png");
+    background-image: url("/images/bg_3.jpg");
     animation-delay: 12s;
 }
 .cb-slideshow li:nth-child(4) span {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/23/4f/03/234f031aa2c998baf7e1ffd8292f9dfa.jpg");
+    background-image: url("/images/bg_4.png");
     animation-delay: 18s;
 }
 .cb-slideshow li:nth-child(5) span {
-    background-image: url("http://i.imgur.com/wAzzfXl.png");
+    background-image: url("/images/bg_5.jpg");
     animation-delay: 24s;
+}
+
+.cb-slideshow li:nth-child(6) span {
+    background-image: url("/images/bg_6.jpg");
+    animation-delay: 30s;
+}
+
+.cb-slideshow li:nth-child(7) span {
+    background-image: url("/images/bg_7.png");
+    animation-delay: 36s;
+}
+
+.cb-slideshow li:nth-child(8) span {
+    background-image: url("/images/bg_8.png");
+    animation-delay: 42s;
+}
+
+.cb-slideshow li:nth-child(9) span {
+    background-image: url("/images/bg_9.jpg");
+    animation-delay: 48s;
 }
 
 @keyframes imageAnimation {
